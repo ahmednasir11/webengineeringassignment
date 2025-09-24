@@ -1,159 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>The Periodic Table</title>
+    <title>Simple Webpage Layout</title>
 </head>
-<body bgcolor="white">
+<body>
 
-<center>
-    <h1>THE PERIODIC TABLE</h1>
-    
-    <table  cellpadding="8" cellspacing="0" width="900">
+<table border="1" cellpadding="10" cellspacing="0" width="100%">
+    <thead>
+        <tr bgcolor="lightblue">
+            <th colspan="2" align="center">
+                <h1>BMW Webpage</h1>
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
         <tr>
-            <td bgcolor="#90EE90"><sup>1</sup>H<sub>1.008</sub></td>
-            <td colspan="16"></td>
-            <td bgcolor="#90EE90"><sup>2</sup>He<sub>4.003</sub></td>
+            <td bgcolor="#f0f0f0" valign="top" rowspan="2" width="20%">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#">Home</a></li><br>
+                    <li><a href="#">About</a></li><br>
+                    <li><a href="#">Models</a></li><br>
+                    <li><a href="#">Contact</a></li><br>
+                </ul>
+            </td>
+            <td bgcolor="white" valign="top">
+                <h2>Welcome to My Website</h2>
+                <p>BMW, short for Bayerische Motoren Werke AG, is a German luxury automobile manufacturer known worldwide for its high-performance cars and motorcycles. 
+                   Founded in 1916, BMW is famous for its iconic kidney grille, cutting-edge technology, and sporty driving experience. 
+                   The brand's slogan, <b>"The Ultimate Driving Machine"</b>, reflects its focus on performance, precision, and driving pleasure.</p>
+                
+                <figure>
+                    <img src="BMW.jpg" width="400" alt="BMW Image">
+                    <figcaption>A stunning BMW car showcasing German engineering and luxury design.</figcaption>
+                </figure>
+
+                <details>
+                    <summary>Read More</summary>
+                    <p>BMW produces a wide range of vehicles including sedans, SUVs, coupes, and electric models under the BMW i-series. 
+                       With its focus on innovation, BMW has become a leader in electric mobility and sustainable production, making it a top choice for car enthusiasts around the world.</p>
+                </details>
+            </td>
         </tr>
         <tr>
-            <td bgcolor="#e01f2d"><sup>3</sup>Li<sub>6.94</sub></td>
-            <td bgcolor="lightblue"><sup>4</sup>Be<sub>9.012</sub></td>
-            <td colspan="10"></td>
-            <td bgcolor="#208496"><sup>5</sup>B<sub>10.81</sub></td>
-            <td bgcolor="orange"><sup>6</sup>C<sub>12.01</sub></td>
-            <td bgcolor="orange"><sup>7</sup>N<sub>14.01</sub></td>
-            <td bgcolor="orange"><sup>8</sup>O<sub>16.00</sub></td>
-            <td bgcolor="#d16fe1"><sup>9</sup>F<sub>19.00</sub></td>
-            <td bgcolor="#7c9668"><sup>10</sup>Ne<sub>20.18</sub></td>
+            <td bgcolor="white" valign="top">
+                <h3>BMW I7</h3>
+                <p>The BMW i7 is the first-ever all-electric 7 Series designed by BMW. It is packed with some of the most advanced technological features ever fitted to a BMW. </p>
+            </td>
         </tr>
-        <tr>
-            <td bgcolor="#e01f2d"><sup>11</sup>Na<sub>22.99</sub></td>
-            <td bgcolor="lightblue"><sup>12</sup>Mg<sub>24.31</sub></td>
-            <td colspan="10"></td>
-            <td bgcolor="#2fbed7"><sup>13</sup>Al<sub>26.98</sub></td>
-            <td bgcolor="#208496"><sup>14</sup>Si<sub>28.09</sub></td>
-            <td bgcolor="orange"><sup>15</sup>P<sub>30.97</sub></td>
-            <td bgcolor="orange"><sup>16</sup>S<sub>32.06</sub></td>
-            <td bgcolor="#d16fe1"><sup>17</sup>Cl<sub>35.45</sub></td>
-            <td bgcolor="#7c9668"><sup>18</sup>Ar<sub>39.95</sub></td>
+    </tbody>
+    <tfoot>
+        <tr bgcolor="lightgray">
+            <td colspan="2" align="center">
+                <p>&copy; 2025 BMW Webpage | I SERIES </p>
+            </td>
         </tr>
-        <tr>
-            <td bgcolor="#e01f2d"><sup>19</sup>K<sub>39.10</sub></td>
-            <td bgcolor="lightblue"><sup>20</sup>Ca<sub>40.08</sub></td>
-            <td bgcolor="#d1e630"><sup>21</sup>Sc<sub>44.96</sub></td>
-            <td bgcolor="#d1e630"><sup>22</sup>Ti<sub>47.87</sub></td>
-            <td bgcolor="#d1e630"><sup>23</sup>V<sub>50.94</sub></td>
-            <td bgcolor="#d1e630"><sup>24</sup>Cr<sub>52.00</sub></td>
-            <td bgcolor="#d1e630"><sup>25</sup>Mn<sub>54.94</sub></td>
-            <td bgcolor="#d1e630"><sup>26</sup>Fe<sub>55.85</sub></td>
-            <td bgcolor="#d1e630"><sup>27</sup>Co<sub>58.93</sub></td>
-            <td bgcolor="#d1e630"><sup>28</sup>Ni<sub>58.69</sub></td>
-            <td bgcolor="#d1e630"><sup>29</sup>Cu<sub>63.55</sub></td>
-            <td bgcolor="#d1e630"><sup>30</sup>Zn<sub>65.38</sub></td>
-            <td bgcolor="#2fbed7"><sup>31</sup>Ga<sub>69.72</sub></td>
-            <td bgcolor="#208496"><sup>32</sup>Ge<sub>72.63</sub></td>
-            <td bgcolor="#208496"><sup>33</sup>As<sub>74.92</sub></td>
-            <td bgcolor="orange"><sup>34</sup>Se<sub>78.96</sub></td>
-            <td bgcolor="#d16fe1"><sup>35</sup>Br<sub>79.90</sub></td>
-            <td bgcolor="#7c9668"><sup>36</sup>Kr<sub>83.80</sub></td>        
-        </tr>
-        <tr>
-            <td bgcolor="#e01f2d"><sup>37</sup>Rb<sub>85.47</sub></td>
-            <td bgcolor="lightblue"><sup>38</sup>Sr<sub>87.62</sub></td>
-            <td bgcolor="#d1e630"><sup>39</sup>Y<sub>88.91</sub></td>
-            <td bgcolor="#d1e630"><sup>40</sup>Zr<sub>91.22</sub></td>
-            <td bgcolor="#d1e630"><sup>41</sup>Nb<sub>92.91</sub></td>
-            <td bgcolor="#d1e630"><sup>42</sup>Mo<sub>95.95</sub></td>
-            <td bgcolor="#d1e630"><sup>43</sup>Tc<sub>98</sub></td>
-            <td bgcolor="#d1e630"><sup>44</sup>Ru<sub>101.07</sub></td>
-            <td bgcolor="#d1e630"><sup>45</sup>Rh<sub>102.91</sub></td>
-            <td bgcolor="#d1e630"><sup>46</sup>Pd<sub>106.42</sub></td>
-            <td bgcolor="#d1e630"><sup>47</sup>Ag<sub>107.87</sub></td>
-            <td bgcolor="#d1e630"><sup>48</sup>Cd<sub>112.41</sub></td>
-            <td bgcolor="#2fbed7"><sup>49</sup>In<sub>114.82</sub></td>
-            <td bgcolor="#2fbed7"><sup>50</sup>Sn<sub>118.71</sub></td>
-            <td bgcolor="#208496"><sup>51</sup>Sb<sub>121.76</sub></td>
-            <td bgcolor="#208496"><sup>52</sup>Te<sub>127.60</sub></td>
-            <td bgcolor="#d16fe1"><sup>53</sup>I<sub>126.90</sub></td>
-            <td bgcolor="#7c9668"><sup>54</sup>Xe<sub>131.29</sub></td>
-        </tr>
-        <tr>
-            <td bgcolor="#e01f2d"><sup>55</sup>Cs<sub>132.91</sub></td>
-            <td bgcolor="lightblue"><sup>56</sup>Ba<sub>137.33</sub></td>
-            <td bgcolor="#d1e630"><sup>71</sup>Lu<sub>174.97</sub></td>
-            <td bgcolor="#d1e630"><sup>72</sup>Hf<sub>178.49</sub></td>
-            <td bgcolor="#d1e630"><sup>73</sup>Ta<sub>180.95</sub></td>
-            <td bgcolor="#d1e630"><sup>74</sup>W<sub>183.84</sub></td>
-            <td bgcolor="#d1e630"><sup>75</sup>Re<sub>186.21</sub></td>
-            <td bgcolor="#d1e630"><sup>76</sup>Os<sub>190.23</sub></td>
-            <td bgcolor="#d1e630"><sup>77</sup>Ir<sub>192.22</sub></td>
-            <td bgcolor="#d1e630"><sup>78</sup>Pt<sub>195.08</sub></td>
-            <td bgcolor="#d1e630"><sup>79</sup>Au<sub>196.97</sub></td>
-            <td bgcolor="#d1e630"><sup>80</sup>Hg<sub>200.59</sub></td>
-            <td bgcolor="#2fbed7"><sup>81</sup>Tl<sub>204.38</sub></td>
-            <td bgcolor="#2fbed7"><sup>82</sup>Pb<sub>207.2</sub></td>
-            <td bgcolor="#2fbed7"><sup>83</sup>Bi<sub>208.98</sub></td>
-            <td bgcolor="#208496"><sup>84</sup>Po<sub>209</sub></td>
-            <td bgcolor="#d16fe1"><sup>85</sup>At<sub>210</sub></td>
-            <td bgcolor="#7c9668"><sup>86</sup>Rn<sub>222</sub></td>
-        </tr>
-        <tr>
-            <td bgcolor="#e01f2d"><sup>87</sup>Fr<sub>223</sub></td>
-            <td bgcolor="lightblue"><sup>88</sup>Ra<sub>226</sub></td>
-            <td bgcolor="#d1e630"><sup>103</sup>Lr<sub>266</sub></td>
-            <td bgcolor="#d1e630"><sup>104</sup>Rf<sub>267</sub></td>
-            <td bgcolor="#d1e630"><sup>105</sup>Db<sub>268</sub></td>
-            <td bgcolor="#d1e630"><sup>106</sup>Sg<sub>269</sub></td>
-            <td bgcolor="#d1e630"><sup>107</sup>Bh<sub>270</sub></td>
-            <td bgcolor="#d1e630"><sup>108</sup>Hs<sub>269</sub></td>
-            <td bgcolor="#d1e630"><sup>109</sup>Mt<sub>278</sub></td>
-            <td bgcolor="#d1e630"><sup>110</sup>Ds<sub>281</sub></td>
-            <td bgcolor="#d1e630"><sup>111</sup>Rg<sub>282</sub></td>
-            <td bgcolor="#d1e630"><sup>112</sup>Cn<sub>285</sub></td>
-            <td bgcolor="#2fbed7"><sup>113</sup>Nh<sub>286</sub></td>
-            <td bgcolor="#2fbed7"><sup>114</sup>Fl<sub>289</sub></td>
-            <td bgcolor="#2fbed7"><sup>115</sup>Mc<sub>290</sub></td>
-            <td bgcolor="#2fbed7"><sup>116</sup>Lv<sub>293</sub></td>
-            <td bgcolor="#d16fe1"><sup>117</sup>Ts<sub>294</sub></td>
-            <td bgcolor="#7c9668"><sup>118</sup>Og<sub>294</sub></td>
-        </tr>
-    </table>
-    
-    <br><br>
-    <table  cellpadding="8" cellspacing="0" width="800">
-        <tr>
-            <td bgcolor="#2fe432"><sup>57</sup>La<sub>138.91</sub></td>
-            <td bgcolor="#2fe432"><sup>58</sup>Ce<sub>140.12</sub></td>
-            <td bgcolor="#2fe432"><sup>59</sup>Pr<sub>140.91</sub></td>
-            <td bgcolor="#2fe432"><sup>60</sup>Nd<sub>144.24</sub></td>
-            <td bgcolor="#2fe432"><sup>61</sup>Pm<sub>145</sub></td>
-            <td bgcolor="#2fe432"><sup>62</sup>Sm<sub>150.36</sub></td>
-            <td bgcolor="#2fe432"><sup>63</sup>Eu<sub>151.96</sub></td>
-            <td bgcolor="#2fe432"><sup>64</sup>Gd<sub>157.25</sub></td>
-            <td bgcolor="#2fe432"><sup>65</sup>Tb<sub>158.93</sub></td>
-            <td bgcolor="#2fe432"><sup>66</sup>Dy<sub>162.50</sub></td>
-            <td bgcolor="#2fe432"><sup>67</sup>Ho<sub>164.93</sub></td>
-            <td bgcolor="#2fe432"><sup>68</sup>Er<sub>167.26</sub></td>
-            <td bgcolor="#2fe432"><sup>69</sup>Tm<sub>168.93</sub></td>
-            <td bgcolor="#2fe432"><sup>70</sup>Yb<sub>173.04</sub></td>
-        </tr>
-        <tr>
-            <td bgcolor="pink"><sup>89</sup>Ac<sub>227</sub></td>
-            <td bgcolor="pink"><sup>90</sup>Th<sub>232.04</sub></td>
-            <td bgcolor="pink"><sup>91</sup>Pa<sub>231.04</sub></td>
-            <td bgcolor="pink"><sup>92</sup>U<sub>238.03</sub></td>
-            <td bgcolor="pink"><sup>93</sup>Np<sub>237</sub></td>
-            <td bgcolor="pink"><sup>94</sup>Pu<sub>244</sub></td>
-            <td bgcolor="pink"><sup>95</sup>Am<sub>243</sub></td>
-            <td bgcolor="pink"><sup>96</sup>Cm<sub>247</sub></td>
-            <td bgcolor="pink"><sup>97</sup>Bk<sub>247</sub></td>
-            <td bgcolor="pink"><sup>98</sup>Cf<sub>251</sub></td>
-            <td bgcolor="pink"><sup>99</sup>Es<sub>252</sub></td>
-            <td bgcolor="pink"><sup>100</sup>Fm<sub>257</sub></td>
-            <td bgcolor="pink"><sup>101</sup>Md<sub>258</sub></td>
-            <td bgcolor="pink"><sup>102</sup>No<sub>259</sub></td>
-        </tr>
-    </table>
-</center>
+    </tfoot>
+</table>
 
 </body>
 </html>
